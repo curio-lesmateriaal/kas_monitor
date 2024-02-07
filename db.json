@@ -1,117 +1,307 @@
 {
- "metingen": [
-    {
-        "meetdatum": "2024-02-07T12:00:00",
-        "zones": [
-            {
-                "id": 1,
-                "zoneNaam": "Zone 1",
-                "gewassen": [
-                    {
-                        "gewasId": 1,
-                        "gewasNaam": "Tomaten",
-                        "temperatuur": {
-                            "waarde": 25,
-                            "eenheid": "Celsius"
-                        },
-                        "vochtigheid": {
-                            "waarde": 60,
-                            "eenheid": "Percentage"
-                        },
-                        "bodemgezondheid": {
-                            "ph": 6.5,
-                            "voedingsstoffen": {
-                                "stikstof": 20,
-                                "fosfor": 10,
-                                "kalium": 15
+    "metingen": [
+        {
+            "meetdatum": "2024-02-07T12:00:00",
+            "zones": [
+                {
+                    "id": 1,
+                    "zoneNaam": "Zone 1",
+                    "gewassen": [
+                        {
+                            "gewasId": 1,
+                            "gewasNaam": "Tomaten",
+                            "temperatuur": {
+                                "waarde": 25,
+                                "eenheid": "Celsius"
+                            },
+                            "vochtigheid": {
+                                "waarde": 60,
+                                "eenheid": "Percentage"
+                            },
+                            "bodemgezondheid": {
+                                "ph": 6.5,
+                                "voedingsstoffen": {
+                                    "stikstof": 20,
+                                    "fosfor": 10,
+                                    "kalium": 15
+                                }
+                            },
+                            "zonlicht": {
+                                "intensiteit": "hoog",
+                                "urenPerDag": 10
                             }
                         },
-                        "zonlicht": {
-                            "intensiteit": "hoog",
-                            "urenPerDag": 10
+                        {
+                            "gewasId": 2,
+                            "gewasNaam": "Paprika",
+                            "temperatuur": {
+                                "waarde": 28,
+                                "eenheid": "Celsius"
+                            },
+                            "vochtigheid": {
+                                "waarde": 55,
+                                "eenheid": "Percentage"
+                            },
+                            "bodemgezondheid": {
+                                "ph": 6.8,
+                                "voedingsstoffen": {
+                                    "stikstof": 18,
+                                    "fosfor": 12,
+                                    "kalium": 20
+                                }
+                            },
+                            "zonlicht": {
+                                "intensiteit": "midden",
+                                "urenPerDag": 8
+                            }
                         }
-                    },
-                    {
-                        "gewasId": 2,
-                        "gewasNaam": "Paprika",
-                        "temperatuur": {
-                            "waarde": 28,
-                            "eenheid": "Celsius"
-                        },
-                        "vochtigheid": {
-                            "waarde": 55,
-                            "eenheid": "Percentage"
-                        },
-                        "bodemgezondheid": {
-                            "ph": 6.8,
-                            "voedingsstoffen": {
-                                "stikstof": 18,
-                                "fosfor": 12,
-                                "kalium": 20
+                    ]
+                },
+                {
+                    "id": 2,
+                    "zoneNaam": "Zone 2",
+                    "gewassen": [
+                        {
+                            "gewasId": 3,
+                            "gewasNaam": "Komkommer",
+                            "temperatuur": {
+                                "waarde": 26,
+                                "eenheid": "Celsius"
+                            },
+                            "vochtigheid": {
+                                "waarde": 58,
+                                "eenheid": "Percentage"
+                            },
+                            "bodemgezondheid": {
+                                "ph": 6.2,
+                                "voedingsstoffen": {
+                                    "stikstof": 22,
+                                    "fosfor": 8,
+                                    "kalium": 18
+                                }
+                            },
+                            "zonlicht": {
+                                "intensiteit": "midden",
+                                "urenPerDag": 9
                             }
                         },
-                        "zonlicht": {
-                            "intensiteit": "midden",
-                            "urenPerDag": 8
+                        {
+                            "gewasId": 4,
+                            "gewasNaam": "Courgette",
+                            "temperatuur": {
+                                "waarde": 27,
+                                "eenheid": "Celsius"
+                            },
+                            "vochtigheid": {
+                                "waarde": 62,
+                                "eenheid": "Percentage"
+                            },
+                            "bodemgezondheid": {
+                                "ph": 6.4,
+                                "voedingsstoffen": {
+                                    "stikstof": 19,
+                                    "fosfor": 11,
+                                    "kalium": 16
+                                }
+                            },
+                            "zonlicht": {
+                                "intensiteit": "hoog",
+                                "urenPerDag": 11
+                            }
                         }
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "zoneNaam": "Zone 2",
-                "gewassen": [
-                    {
-                        "gewasId": 3,
-                        "gewasNaam": "Komkommer",
-                        "temperatuur": {
-                            "waarde": 26,
-                            "eenheid": "Celsius"
-                        },
-                        "vochtigheid": {
-                            "waarde": 58,
-                            "eenheid": "Percentage"
-                        },
-                        "bodemgezondheid": {
-                            "ph": 6.2,
-                            "voedingsstoffen": {
-                                "stikstof": 22,
-                                "fosfor": 8,
-                                "kalium": 18
+                    ]
+                },
+                {
+                    "id": 3,
+                    "zoneNaam": "Zone 3",
+                    "gewassen": [
+                        {
+                            "gewasId": 5,
+                            "gewasNaam": "Aubergine",
+                            "temperatuur": {
+                                "waarde": 26,
+                                "eenheid": "Celsius"
+                            },
+                            "vochtigheid": {
+                                "waarde": 55,
+                                "eenheid": "Percentage"
+                            },
+                            "bodemgezondheid": {
+                                "ph": 6.6,
+                                "voedingsstoffen": {
+                                    "stikstof": 21,
+                                    "fosfor": 9,
+                                    "kalium": 17
+                                }
+                            },
+                            "zonlicht": {
+                                "intensiteit": "midden",
+                                "urenPerDag": 9
                             }
                         },
-                        "zonlicht": {
-                            "intensiteit": "midden",
-                            "urenPerDag": 9
+                        {
+                            "gewasId": 6,
+                            "gewasNaam": "Radijs",
+                            "temperatuur": {
+                                "waarde": 24,
+                                "eenheid": "Celsius"
+                            },
+                            "vochtigheid": {
+                                "waarde": 65,
+                                "eenheid": "Percentage"
+                            },
+                            "bodemgezondheid": {
+                                "ph": 6.2,
+                                "voedingsstoffen": {
+                                    "stikstof": 20,
+                                    "fosfor": 10,
+                                    "kalium": 15
+                                }
+                            },
+                            "zonlicht": {
+                                "intensiteit": "laag",
+                                "urenPerDag": 7
+                            }
                         }
-                    },
-                    {
-                        "gewasId": 4,
-                        "gewasNaam": "Courgette",
-                        "temperatuur": {
-                            "waarde": 27,
-                            "eenheid": "Celsius"
-                        },
-                        "vochtigheid": {
-                            "waarde": 62,
-                            "eenheid": "Percentage"
-                        },
-                        "bodemgezondheid": {
-                            "ph": 6.4,
-                            "voedingsstoffen": {
-                                "stikstof": 19,
-                                "fosfor": 11,
-                                "kalium": 16
+                    ]
+                },
+                {
+                    "id": 4,
+                    "zoneNaam": "Zone 4",
+                    "gewassen": [
+                        {
+                            "gewasId": 9,
+                            "gewasNaam": "Wortels",
+                            "temperatuur": {
+                                "waarde": 22,
+                                "eenheid": "Celsius"
+                            },
+                            "vochtigheid": {
+                                "waarde": 50,
+                                "eenheid": "Percentage"
+                            },
+                            "bodemgezondheid": {
+                                "ph": 6,
+                                "voedingsstoffen": {
+                                    "stikstof": 18,
+                                    "fosfor": 8,
+                                    "kalium": 14
+                                }
+                            },
+                            "zonlicht": {
+                                "intensiteit": "midden",
+                                "urenPerDag": 8
                             }
                         },
-                        "zonlicht": {
-                            "intensiteit": "hoog",
-                            "urenPerDag": 11
+                        {
+                            "gewasId": 10,
+                            "gewasNaam": "Spinazie",
+                            "temperatuur": {
+                                "waarde": 20,
+                                "eenheid": "Celsius"
+                            },
+                            "vochtigheid": {
+                                "waarde": 55,
+                                "eenheid": "Percentage"
+                            },
+                            "bodemgezondheid": {
+                                "ph": 6.2,
+                                "voedingsstoffen": {
+                                    "stikstof": 20,
+                                    "fosfor": 10,
+                                    "kalium": 16
+                                }
+                            },
+                            "zonlicht": {
+                                "intensiteit": "laag",
+                                "urenPerDag": 6
+                            }
                         }
-                    }
-                ]
-            }
-        ]
-    }
-]
+                    ]
+                },
+                {
+                    "id": 5,
+                    "zoneNaam": "Zone 5",
+                    "gewassen": [
+                        {
+                            "gewasId": 11,
+                            "gewasNaam": "Sla",
+                            "temperatuur": {
+                                "waarde": 18,
+                                "eenheid": "Celsius"
+                            },
+                            "vochtigheid": {
+                                "waarde": 65,
+                                "eenheid": "Percentage"
+                            },
+                            "bodemgezondheid": {
+                                "ph": 6.5,
+                                "voedingsstoffen": {
+                                    "stikstof": 15,
+                                    "fosfor": 7,
+                                    "kalium": 12
+                                }
+                            },
+                            "zonlicht": {
+                                "intensiteit": "midden",
+                                "urenPerDag": 7
+                            }
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "zoneNaam": "Zone 6",
+                    "gewassen": [
+                        {
+                            "gewasId": 13,
+                            "gewasNaam": "Bloemkool",
+                            "temperatuur": {
+                                "waarde": 20,
+                                "eenheid": "Celsius"
+                            },
+                            "vochtigheid": {
+                                "waarde": 60,
+                                "eenheid": "Percentage"
+                            },
+                            "bodemgezondheid": {
+                                "ph": 6,
+                                "voedingsstoffen": {
+                                    "stikstof": 17,
+                                    "fosfor": 9,
+                                    "kalium": 14
+                                }
+                            },
+                            "intensiteit": "laag",
+                            "urenPerDag": 6
+                        },
+                        {
+                            "gewasId": 14,
+                            "gewasNaam": "Broccoli",
+                            "temperatuur": {
+                                "waarde": 18,
+                                "eenheid": "Celsius"
+                            },
+                            "vochtigheid": {
+                                "waarde": 55,
+                                "eenheid": "Percentage"
+                            },
+                            "bodemgezondheid": {
+                                "ph": 6.3,
+                                "voedingsstoffen": {
+                                    "stikstof": 16,
+                                    "fosfor": 8,
+                                    "kalium": 13
+                                }
+                            },
+                            "zonlicht": {
+                                "intensiteit": "midden",
+                                "urenPerDag": 8
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }
