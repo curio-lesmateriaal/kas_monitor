@@ -248,59 +248,8 @@
                             }
                         }
                     ]
-                },
-                {
-                    "id": 6,
-                    "zoneNaam": "Zone 6",
-                    "gewassen": [
-                        {
-                            "gewasId": 13,
-                            "gewasNaam": "Bloemkool",
-                            "temperatuur": {
-                                "waarde": 20,
-                                "eenheid": "Celsius"
-                            },
-                            "vochtigheid": {
-                                "waarde": 60,
-                                "eenheid": "Percentage"
-                            },
-                            "bodemgezondheid": {
-                                "ph": 6,
-                                "voedingsstoffen": {
-                                    "stikstof": 17,
-                                    "fosfor": 9,
-                                    "kalium": 14
-                                }
-                            },
-                            "intensiteit": "laag",
-                            "urenPerDag": 6
-                        },
-                        {
-                            "gewasId": 14,
-                            "gewasNaam": "Broccoli",
-                            "temperatuur": {
-                                "waarde": 18,
-                                "eenheid": "Celsius"
-                            },
-                            "vochtigheid": {
-                                "waarde": 55,
-                                "eenheid": "Percentage"
-                            },
-                            "bodemgezondheid": {
-                                "ph": 6.3,
-                                "voedingsstoffen": {
-                                    "stikstof": 16,
-                                    "fosfor": 8,
-                                    "kalium": 13
-                                }
-                            },
-                            "zonlicht": {
-                                "intensiteit": "midden",
-                                "urenPerDag": 8
-                            }
-                        }
-                    ]
                 }
+                
             ]
         }
     ]
