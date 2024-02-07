@@ -110,15 +110,19 @@
           }
         ]
       },
-      // Voeg gegevens in voor de overige zones op een vergelijkbare manier
+
+
+      
     ]
   },
   {
     "meetdatum": "2024-02-06T15:00:00",
-    // Voeg gegevens in voor gistermiddag op een vergelijkbare manier als hierboven
+  
+  
   },
   {
     "meetdatum": "2024-02-06T08:00:00",
-    // Voeg gegevens in voor gisterochtend op een vergelijkbare manier als hierboven
+
+    
   }
 ]
