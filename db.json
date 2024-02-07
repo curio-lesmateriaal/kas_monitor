@@ -218,36 +218,6 @@
                             }
                         }
                     ]
-                },
-                {
-                    "id": 5,
-                    "zoneNaam": "Zone 5",
-                    "gewassen": [
-                        {
-                            "gewasId": 11,
-                            "gewasNaam": "Sla",
-                            "temperatuur": {
-                                "waarde": 18,
-                                "eenheid": "Celsius"
-                            },
-                            "vochtigheid": {
-                                "waarde": 65,
-                                "eenheid": "Percentage"
-                            },
-                            "bodemgezondheid": {
-                                "ph": 6.5,
-                                "voedingsstoffen": {
-                                    "stikstof": 15,
-                                    "fosfor": 7,
-                                    "kalium": 12
-                                }
-                            },
-                            "zonlicht": {
-                                "intensiteit": "midden",
-                                "urenPerDag": 7
-                            }
-                        }
-                    ]
                 }
                 
             ]
